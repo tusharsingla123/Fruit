@@ -14,7 +14,7 @@ Design and build a health manager product called Fruit.ai, which includes variou
 * FAQ Page: Allows users to create, read, update, and delete FAQs related to fruits.
 * About Page: Information about the Fruit.ai product.
 
-**Requirements**
+# Requirements
 
 ## Frontend
 * Framework: React (preferred) , CSS.
@@ -29,25 +29,25 @@ Design and build a health manager product called Fruit.ai, which includes variou
 ## Backend
 
 Framework: Flask (preferred), FastAPI with Python
-• API Endpoints:
-    • GET /faqs: Fetch all FAQs.
-    • GET /faqs/:id: Fetch a single FAQ by ID.
-    • POST /faqs: Create a new FAQ.
-    • PUT /faqs/:id: Update an FAQ by ID.
-    • DELETE /faqs/:id: Delete an FAQ by ID.
-• Error Handling: Implement proper validation and error responses for all endpoints.
+* API Endpoints:
+    * GET /faqs: Fetch all FAQs.
+    * GET /faqs/:id: Fetch a single FAQ by ID.
+    * POST /faqs: Create a new FAQ.
+    * PUT /faqs/:id: Update an FAQ by ID.
+    * DELETE /faqs/:id: Delete an FAQ by ID.
+* Error Handling: Implement proper validation and error responses for all endpoints.
 
 
 # Pages and Functionality
 
-1. Login Page
-Description: Dummy login interface for User ID and Password. Redirects to the homepage on successful login.
-2. Home Page
-Description: Home page with links to the following services:
-Chatbot: Displays fruit information.
-Translator: Text translation into a regional language.
-FAQ Page: View and manage FAQs related to fruits.
-About Page: Information about the Fruit.ai product.
+* Login Page
+   * Description: Dummy login interface for User ID and Password. Redirects to the homepage on successful login.
+* Home Page
+    *Description: Home page with links to the following services:
+       * Chatbot: Displays fruit information.
+       * Translator: Text translation into a regional language.
+       * FAQ Page: View and manage FAQs related to fruits.
+       * About Page: Information about the Fruit.ai product.
 3. Chatbot Page
 Description:
 Display fruits in card format.
