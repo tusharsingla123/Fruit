@@ -1,11 +1,11 @@
 # Fruit.ai
 
 
-Objective
+**Objective**
 
 Design and build a health manager product called Fruit.ai, which includes various services such as a chatbot, translator, FAQ, and about page. The product is designed to assist users with fruit-related information, translate texts, manage FAQs, and provide general product information.
 
-Features
+**Features**
 
 Login Page: Simple login with dummy User ID and Password, redirects to the homepage.
 Home Page: Contains navigational links to four main services.
