@@ -1,6 +1,5 @@
 # Fruit.ai
 
-Fruit.ai - Health Manager Product
 
 Objective
 
@@ -16,24 +15,29 @@ FAQ Page: Allows users to create, read, update, and delete FAQs related to fruit
 About Page: Information about the Fruit.ai product.
 Requirements
 
-Frontend
-Framework: React (preferred) or HTML/CSS.
-API Interaction:
-Handle API requests using async/await.
-Properly handle timeouts and errors.
-Styling: Use standard CSS or CSS-in-JS libraries.
-Form Handling: Proper validation for forms, especially on the FAQ page.
-UX: Good user experience with loading indicators and error messages.
-Backend
-Framework: Flask (preferred), FastAPI, or Django with Python.
-API Endpoints:
-GET /faqs: Fetch all FAQs.
-GET /faqs/:id: Fetch a single FAQ by ID.
-POST /faqs: Create a new FAQ.
-PUT /faqs/:id: Update an FAQ by ID.
-DELETE /faqs/:id: Delete an FAQ by ID.
-Error Handling: Implement proper validation and error responses for all endpoints.
-Pages and Functionality
+#Frontend
+• Framework: React (preferred) , CSS.
+• API Interaction:
+    • Handle API requests using async/await.
+    • Properly handle timeouts and errors.
+• Styling: Use standard CSS or CSS-in-JS libraries.
+• Form Handling: Proper validation for forms, especially on the FAQ page.
+• UX: Good user experience with loading indicators and error messages.
+
+
+#Backend
+
+Framework: Flask (preferred), FastAPI with Python
+• API Endpoints:
+    • GET /faqs: Fetch all FAQs.
+    • GET /faqs/:id: Fetch a single FAQ by ID.
+    • POST /faqs: Create a new FAQ.
+    • PUT /faqs/:id: Update an FAQ by ID.
+    • DELETE /faqs/:id: Delete an FAQ by ID.
+• Error Handling: Implement proper validation and error responses for all endpoints.
+
+
+#Pages and Functionality
 
 1. Login Page
 Description: Dummy login interface for User ID and Password. Redirects to the homepage on successful login.
