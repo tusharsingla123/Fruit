@@ -15,7 +15,7 @@ FAQ Page: Allows users to create, read, update, and delete FAQs related to fruit
 About Page: Information about the Fruit.ai product.
 Requirements
 
-##Frontend
+## Frontend
 • Framework: React (preferred) , CSS.
 • API Interaction:
     • Handle API requests using async/await.
@@ -25,7 +25,7 @@ Requirements
 • UX: Good user experience with loading indicators and error messages.
 
 
-##Backend
+## Backend
 
 Framework: Flask (preferred), FastAPI with Python
 • API Endpoints:
