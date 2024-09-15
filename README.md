@@ -43,26 +43,20 @@ Framework: Flask (preferred), FastAPI with Python
 * Login Page
    * Description: Dummy login interface for User ID and Password. Redirects to the homepage on successful login.
 * Home Page
-    *Description: Home page with links to the following services:
-       * Chatbot: Displays fruit information.
-       * Translator: Text translation into a regional language.
-       * FAQ Page: View and manage FAQs related to fruits.
-       * About Page: Information about the Fruit.ai product.
-3. Chatbot Page
-Description:
-Display fruits in card format.
-Click on a card to view the detailed information of the fruit.
-4. Translator Page
-Description:
-Input box where users can enter text.
-Translate text into the selected regional language using an API.
-5. FAQ Page
-Description:
-Basic CRUD functionality to manage FAQs.
-Users can create, update, delete, and view FAQs related to fruits.
-6. About Page
-Description:
-Information about the Fruit.ai project.
+   * Chatbot: Displays fruit information.
+   * Translator: Text translation into a regional language.
+   * FAQ Page: View and manage FAQs related to fruits.
+   * About Page: Information about the Fruit.ai product.
+* Chatbot Page
+   * Click on a card to view the detailed information of the fruit.
+* Translator Page
+   * Translate text into the selected regional language using an API.
+* FAQ Page
+   * Users can create, update, delete, and view FAQs related to fruits.
+* About Page
+   * Information about the Fruit.ai project.
+
+
 Deployment
 
 Frontend Deployment
