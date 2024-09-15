@@ -38,7 +38,7 @@ Framework: Flask (preferred), FastAPI with Python
 • Error Handling: Implement proper validation and error responses for all endpoints.
 
 
-#Pages and Functionality
+# Pages and Functionality
 
 1. Login Page
 Description: Dummy login interface for User ID and Password. Redirects to the homepage on successful login.
