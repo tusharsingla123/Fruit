@@ -16,13 +16,13 @@ About Page: Information about the Fruit.ai product.
 Requirements
 
 ## Frontend
-• Framework: React (preferred) , CSS.
-• API Interaction:
-    • Handle API requests using async/await.
-    • Properly handle timeouts and errors.
-• Styling: Use standard CSS or CSS-in-JS libraries.
-• Form Handling: Proper validation for forms, especially on the FAQ page.
-• UX: Good user experience with loading indicators and error messages.
+* Framework: React (preferred) , CSS.
+* API Interaction:
+    * Handle API requests using async/await.
+    * Properly handle timeouts and errors.
+* Styling: Use standard CSS or CSS-in-JS libraries.
+* Form Handling: Proper validation for forms, especially on the FAQ page.
+* UX: Good user experience with loading indicators and error messages.
 
 
 ## Backend
