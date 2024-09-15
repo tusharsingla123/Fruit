@@ -42,6 +42,11 @@ Framework: Flask (preferred), FastAPI with Python
 
 * Login Page
    * Description: Dummy login interface for User ID and Password. Redirects to the homepage on successful login.
+   * login page
+     ```bash
+     userID : abc
+     password : 123
+     ```
 * Home Page
    * Chatbot: Displays fruit information.
    * Translator: Text translation into a regional language.
