@@ -6,6 +6,7 @@ import Login from "./components/Login";
 import Chat from "./components/Chat";
 import Faq from "./components/Faq";
 import Translator from "./components/Translator";
+import Chatbot from "./components/Chatbot";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/chat" element={<Chat />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/faq" element={<Faq />}></Route>
+          <Route path="/chatbot" element={<Chatbot />}></Route>
           <Route path="/translator" element={<Translator />}></Route>
         </Routes>
       </BrowserRouter>
