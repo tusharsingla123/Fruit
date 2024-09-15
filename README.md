@@ -7,13 +7,14 @@ Design and build a health manager product called Fruit.ai, which includes variou
 
 **Features**
 
-Login Page: Simple login with dummy User ID and Password, redirects to the homepage.
-Home Page: Contains navigational links to four main services.
-Chatbot Page: Displays a list of fruits as cards and shows detailed fruit information on click.
-Translator Page: Allows users to input text and translate it into a regional language.
-FAQ Page: Allows users to create, read, update, and delete FAQs related to fruits.
-About Page: Information about the Fruit.ai product.
-Requirements
+* Login Page: Simple login with dummy User ID and Password, redirects to the homepage.
+* Home Page: Contains navigational links to four main services.
+* Chatbot Page: Displays a list of fruits as cards and shows detailed fruit information on click.
+* Translator Page: Allows users to input text and translate it into a regional language.
+* FAQ Page: Allows users to create, read, update, and delete FAQs related to fruits.
+* About Page: Information about the Fruit.ai product.
+
+**Requirements**
 
 ## Frontend
 * Framework: React (preferred) , CSS.
