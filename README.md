@@ -57,49 +57,83 @@ Framework: Flask (preferred), FastAPI with Python
    * Information about the Fruit.ai project.
 
 
-Deployment
+## Deployment
 
-Frontend Deployment
-Platform: Vercel/Netlify (publicly accessible).
-Backend Deployment
-Platform: AWS, Heroku, or Render (publicly accessible).
-Environment Variables
-Ensure the frontend uses environment variables to communicate with the backend API URLs.
-Project Setup and Running Instructions
+* Frontend Deployment
+   *Platform: Vercel.
+* Backend Deployment
+   * Platform: Vercel.
 
-Prerequisites
-Node.js
-Python (Flask or Django)
-Git
-Frontend Setup
+* Environment Variables
+   * Ensure the frontend uses environment variables to communicate with the backend API URLs.
+ 
+## Project Setup and Running Instructions
+
+## Frontend Setup
 Clone the repository:
-bash
-Copy code
+```bash
 git clone https://github.com/your-username/fruit-ai.git
-cd fruit-ai/frontend
-Install dependencies:
-bash
-Copy code
+cd fruit-ai/myapp
+```
+
+* Install dependencies:
+```bash
 npm install
-Run the frontend:
-bash
-Copy code
+```
+
+* Run the frontend:
+```bash
 npm start
-The application will run on http://localhost:3000.
-Backend Setup
-Navigate to the backend folder:
-bash
-Copy code
+```
+
+* The application will run on http://localhost:3000.
+
+## Backend Setup
+
+* Navigate to the backend folder:
+```bash
 cd fruit-ai/backend
-Create a virtual environment and install dependencies:
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate
+```
+
+* Create a virtual environment and install dependencies:
+Create a requirements.txt file for easy installation:
+```bash
+Flask
+Flask-CORS
+googletrans==4.0.0-rc1
+Werkzeug
+```
+Run the following command to install all the dependencies:
+```bash
 pip install -r requirements.txt
-Run the backend server:
-bash
-Copy code
+```
+
+* Run the backend server:
+```bash
 python app.py
-The backend will run on http://127.0.0.1:5000.
+```
+
+* The backend will run on http://127.0.0.1:5000.
+
+# Deploying Frontend
+* Push your frontend code to GitHub.
+* Deploy the frontend on Vercel.
+  
+# Deploying Backend
+* Push your backend code to GitHub.
+* Deploy the backend on Vercel.
+
+  
+## Deliverables
+
+* Source Code: 
+```bash
+https://github.com/tusharsingla123/Fruit/tree/main
+```
+
+
+Live Demo: 
+```bash
+https://fruit-cyan.vercel.app/
+```
 
