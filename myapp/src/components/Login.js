@@ -50,6 +50,8 @@ const Login = () => {
             <button type="submit">Login</button>
           </div>
         </form>
+                <br/>
+                <br/>
                 <p>id : abc <br/> password : 123</p>
       </div>
     </div>
