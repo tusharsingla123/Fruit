@@ -65,7 +65,7 @@ Framework: Flask (preferred), FastAPI with Python
 ## Deployment
 
 * Frontend Deployment
-   *Platform: Vercel.
+   * Platform: Vercel.
 * Backend Deployment
    * Platform: Vercel.
 
